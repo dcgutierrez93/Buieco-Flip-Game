@@ -26,16 +26,16 @@ body {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .flex-item {
+
   background: grey;
   padding: 5px;
   width: 200px;
-  height: 150px;
-  margin-top: 20px;
-  margin-bottom: 60px;
+  height: 160px;
+  margin: 30px;
   line-height: 150px;
   color: white;
   font-weight: bold;
